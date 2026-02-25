@@ -1,0 +1,153 @@
+body{
+width: 100%;
+padding:0;
+background-color: #1a1a1a;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+font-family: 'Courier New', Courier, monospace
+}
+
+.calculadora{
+    
+    background-color: grey ;
+    padding: 20px;
+    width: 330px;
+    border-radius: 15px;
+    box-shadow:0 0 20px #000000;
+    border: 4px solid #111;
+    
+}
+
+.calculadora h1{
+    color: rgba(168, 31, 31, 0);
+    margin-bottom: 10px;
+    
+}
+
+#visor{
+    width: 100%;
+    height: 60px;
+    font-size: 28px;
+    text-align: right;
+    border-radius: 10px;
+    border: 3px inset #000;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color:  #0f380f;
+    color:#33ff33;
+    margin-bottom: 15px ;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.teclado{
+   
+    display: grid;
+    grid-template-columns: repeat(4, 70px) ;
+    gap: 10px;
+
+}
+
+.btn {
+
+    height: 60px;
+    font-size: 20px;
+    background-color: #1a1a1a;
+    color: #fff;
+    border: 3px solid #222;
+    border-radius: 8%;
+    cursor: pointer;
+    transition: 0.1s;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.operador{
+
+    background-color:white;
+    color: black;
+
+}
+
+
+.limpar{
+
+    background-color: #ff0000;
+    color: white;
+    
+}
+
+.zero{
+
+  grid-column: span 1;
+  border-radius: 5px;
+ 
+
+}
+.igual{
+    background-color: grey;
+    color: white;
+    border-radius: 10px;
+}
+
+.grande{
+
+    grid-column: span 4;
+    border-radius: 0%;
+    height: 60px;
+    background-color: #1a1a1a;
+}
+
+
+.porcentagem{
+    background-color: #444;
+    color: black;
+}
+
+.menos{
+    background-color: orange;
+    color: black;
+}
+
+.mais{
+    background-color: orange;
+    color: black;
+}
+.multiplicacao{
+    background-color: orange;
+    color: black;
+}
+
+.divisao{
+    background-color: orange;
+    color: black;
+}
+
+.apagar{
+    background-color: #203500;
+    color: white;
+}
+
+.ponto{
+    background-color: #203500;
+    color: white;
+}
+
+.raizQuadrada{
+    background-color: #203500;
+    color: white;
+}
+
+.pi{
+    background-color: orange;
+    color: white;
+}
+    
+.porcentagem{
+    background-color: orange;
+    color: black;
+}
+
+    
